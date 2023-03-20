@@ -1,8 +1,8 @@
 " GruberDarker Theme for Vim
 "
-" Adapted from an Emacs theme: 
+" Adapted from an Emacs theme:
 " https://github.com/rexim/gruber-darker-theme
-" 
+"
 " Colorscheme template: https://github.com/mhartington/oceanic-next/blob/master/colors/OceanicNext.vim
 " --------------------------------------------
 
@@ -29,26 +29,47 @@
   endif
 "}}}
 " {{{ Colors
-  let s:gruberFG=['#e4e4ef', '253']
-  let s:gruberFG1=['#f4f4ff', '254']
-  let s:gruberFG2=['#f5f5ff', '240']
-  let s:gruberFG3=['#65737e', '243']
-  let s:gruberWhite=['#ffffff', '15']
-  let s:gruberBlack=['#000000', '0']
-  let s:gruberBG=['#181818', '233']
-  let s:gruberBG1=['#282828', '235']
-  let s:gruberBG2=['#453d41', '238']
-  let s:gruberLightRed=['#c73c3f', '203']
-  let s:gruberRed=['#f43841', '160']
-  let s:gruberNiagara=['#96a6c8', '147']
-  let s:gruberQuartz=['#95a99f', '108']
+"  let s:gruberFG=['#e4e4ef', '253']
+"  let s:gruberFG1=['#f4f4ff', '254']
+"  let s:gruberFG2=['#f5f5ff', '240']
+"  let s:gruberFG3=['#65737e', '243']
+"  let s:gruberWhite=['#ffffff', '15']
+"  let s:gruberBlack=['#000000', '0']
+"  let s:gruberBG=['#181818', '233']
+"  let s:gruberBG1=['#282828', '235']
+"  let s:gruberBG2=['#453d41', '238']
+"  let s:gruberLightRed=['#c73c3f', '203']
+"  let s:gruberRed=['#f43841', '160']
+"  let s:gruberNiagara=['#96a6c8', '147']
+"  let s:gruberQuartz=['#95a99f', '108']
+"  let s:gruberGreen=['#73c936', '70']
+"  let s:gruberMain=['#ffdd33', '220']
+"  let s:gruberBrown=['#cc8c3c', '172']
+"  let s:gruberPurple=['#9e95c7', '98']
+"  let s:gruberLightBlue=['#0087d7', '32']
+"  let s:gruberBlue=['#0000d7', '20']
+"  let s:gruberGold=['#d7af00', '178']
+
+  let s:gruberFG=['#f4f4ff','253']
+  let s:gruberFG1=['#f5f5f5', '254']
+  let s:gruberFG2=['#ffffff', '240']
+  let s:gruberFG3=['#000000', '243']
+  let s:gruberWhite=['#101010', '15']
+  let s:gruberBlack=['#181818', '0']
+  let s:gruberBG=['#282828', '233']
+  let s:gruberBG1=['#453d41', '235']
+  let s:gruberBG2=['#484848', '238']
+  let s:gruberLightRed=['#52494e', '203']
+  let s:gruberRed=['#c73c3f', '160']
+  let s:gruberNiagara=['#f43841', '147']
+  let s:gruberQuartz=['#ff4f58', '108']
   let s:gruberGreen=['#73c936', '70']
   let s:gruberMain=['#ffdd33', '220']
   let s:gruberBrown=['#cc8c3c', '172']
-  let s:gruberPurple=['#9e95c7', '98']
-  let s:gruberLightBlue=['#0087d7', '32']
-  let s:gruberBlue=['#0000d7', '20']
-  let s:gruberGold=['#d7af00', '178']
+  let s:gruberPurple=['#95a99f', '98']
+  let s:gruberLightBlue=['#303540', '32']
+  let s:gruberBlue=['#565f73', '20']
+  let s:gruberGold=['#96a6c8', '178']
   let s:none=['NONE', 'NONE']
 
 " {{{ Highlight function
